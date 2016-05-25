@@ -9,6 +9,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'puma'
+gem 'sqlite3'
+gem 'pg'
+
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'
